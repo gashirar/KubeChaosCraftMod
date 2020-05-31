@@ -32,7 +32,7 @@ Forge Version is v1.15.2!
 
 ### KubeChaosCraftMod
 
-Put the Jar file in the mod directory.
+Put the `release/kubechaoscraftmod-x.x.jar` file in the mod directory.
 
 
 

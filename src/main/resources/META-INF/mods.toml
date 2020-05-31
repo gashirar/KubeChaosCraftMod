@@ -1,0 +1,48 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="https://github.com/gashirar/KubeChaosCraftMod/issues" #optional
+
+[[mods]] #mandatory
+
+modId="kubechaoscraftmod" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="KubeChaosCraft Mod" #mandatory
+
+# A URL to query for updates for this mod. See the JSON update specification <here>
+# updateJSONURL="http://myurl.me/" #optional
+
+displayURL="https://github.com/gashirar/KubeChaosCraftMod/" #optional
+
+# logoFile="kubechaoscraft.png" #optional
+
+# credits="Thanks for this example mod goes to Java" #optional
+
+authors="Gashirar"
+
+description='''
+Kubernetes + Chaos Engineering + Mineecraft = KubeChaosCraft!
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.kubechaoscraftmod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.kubechaoscraftmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

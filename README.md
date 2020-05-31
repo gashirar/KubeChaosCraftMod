@@ -11,6 +11,10 @@ https://github.com/lucky-sideburn/KubeInvaders
 
 KubeChaosCraft is Minecraft Mod.
 
+![Architecture](doc/image.png "Let`s delete Pod!")
+
+See [Demo](https://github.com/gashirar/KubeChaosCraftMod/blob/master/doc/demo.gif)
+
 Using the event that the player defeated the Mob, it sends a request to the Kubernetes API Server to remove the Pod.
 
 ![Architecture](doc/architecture.jpg "Architecture")
